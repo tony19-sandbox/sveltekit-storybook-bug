@@ -1,6 +1,9 @@
 <script lang="ts">
   import './button.css';
 
+  // FIXME: SvelteKit crashes if a story imports this.
+  import { goto } from '$app/navigation';
+
   /**
    * Is this the principal call to action on the page?
    */
