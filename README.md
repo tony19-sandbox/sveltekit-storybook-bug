@@ -26,7 +26,7 @@ TypeError: Cannot read properties of undefined (reading 'disable_scroll_handling
     npx storybook@next init
     ```
 
-3. Edit `src/stories/Button.stories.ts` to import `'$app/navigation'`:
+3. Edit `src/stories/Button.svelte` to import `'$app/navigation'`:
 
     ```html
     <script lang="ts">
