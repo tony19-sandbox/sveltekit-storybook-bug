@@ -1,5 +1,7 @@
 # Demo of SvelteKit/Storybook bug
 
+https://github.com/sveltejs/kit/issues/7257
+
 If a story component imports `'$app/navigation'`, SvelteKit emits this error when rendering the story:
 
 ```
