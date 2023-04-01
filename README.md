@@ -26,11 +26,11 @@ TypeError: Cannot read properties of undefined (reading 'disable_scroll_handling
 
 3. Edit `src/stories/Button.stories.ts` to import `'$app/navigation'`:
 
-   ```html
-   <script lang="ts">
-     import { goto } from '$app/navigation';
-   </script>
-   ```
+    ```html
+    <script lang="ts">
+      import { goto } from '$app/navigation';
+    </script>
+    ```
 
 4. Run Storybook:
 
